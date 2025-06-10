@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Salesmate Chat Widget Start -->
+    <script>
+      window.salesmateSettings = {
+        workspace_id: "e772f43e-f86b-4917-9925-e7cf9bf0651f",
+        app_key: "e85e91a0-3546-11f0-9ccc-6b6448087af8",
+        tenant_id: "shreya.salesmate.io"
+      };
+    </script>
+    <script>
+      !function(e,t,a,i,d,n,o){
+        e.Widget=i,e[i]=e[i]||function(){
+          (e[i].q=e[i].q||[]).push(arguments)
+        },
+        n=t.createElement(a),o=t.getElementsByTagName(a)[0],
+        n.id=i,n.src=d,window._salesmate_widget_script_url=d,
+        n.async=1,o.parentNode.insertBefore(n,o)
+      }(window,document,"script","loadwidget","https://shreya.salesmate.io/messenger-platform/messenger-platform-main.js"),
+      loadwidget("init",{}),
+      loadwidget("load_widget","Widget Loading...!");
+    </script>
+    <!-- Salesmate Chat Widget End -->
+
+  </body>
+</html>

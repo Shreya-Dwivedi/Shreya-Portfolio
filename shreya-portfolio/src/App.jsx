@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -9,6 +8,7 @@ import Outreach from './components/Outreach';
 import Education from './components/Education';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Testing from "./pages/Testing";
 
 const App = () => {
   useEffect(() => {
@@ -56,6 +56,7 @@ const App = () => {
         <Outreach />
         <Education />
         <Contact />
+        <Testing />
       </main>
       <Footer />
     </>

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 export default function Header() {
   return (
     <header className="w-full py-4 px-6 shadow-md fixed bg-white z-50 flex justify-between items-center">
@@ -9,6 +11,7 @@ export default function Header() {
           <li><a href="#experience" className="hover:text-indigo-500">Experience</a></li>
           <li><a href="#education" className="hover:text-indigo-500">Education</a></li>
           <li><a href="#contact" className="hover:text-indigo-500">Contact</a></li>
+          <li><Link to="/testing" className="hover:text-indigo-500">Testing</Link></li>
         </ul>
       </nav>
     </header>
